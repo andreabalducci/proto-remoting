@@ -1,0 +1,1 @@
+%userprofile%\.nuget\packages\google.protobuf.tools\3.5.1\tools\windows_x64\protoc Protocol.proto -I=. --csharp_out=. --csharp_opt=file_extension=.g.cs --grpc_out . --plugin=protoc-gen-grpc=%userprofile%\.nuget\packages\Grpc.Tools\1.8.3\tools\windows_x64\grpc_csharp_plugin.exe

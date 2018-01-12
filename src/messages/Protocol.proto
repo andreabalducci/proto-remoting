@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+package messages;
+option csharp_namespace = "Messages";
+import "Protos.proto";
+
+message Connect
+{
+	actor.PID Sender = 1;
+}
+
+message Connected 
+{
+	string Message = 1;
+}
